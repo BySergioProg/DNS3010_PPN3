@@ -1,0 +1,377 @@
+﻿<Window x:Class="DNS3010_PPN3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DNS3010_PPN3"
+        mc:Ignorable="d"
+        Title="ППН-3" Height="1024" Width="1280" WindowStartupLocation="CenterScreen" Closed="Window_Closed" WindowState="Maximized">
+    <Grid Background="#FF82B854">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+       
+        <Image Source="Resources/Pipe_horizontal_yellow.png" Grid.Column="3" Grid.Row="43" Grid.RowSpan="3" Grid.ColumnSpan="40" Stretch="Fill" />
+        <Image Source="Resources/90_degree_bend_4_yellow.png" Grid.ColumnSpan="3" Grid.RowSpan="3" Stretch="Fill" Grid.Column="43" Grid.Row="43"/>
+        <Image Source="Resources/Pipe_vertical_yellow.png" Grid.ColumnSpan="3" Grid.RowSpan="33" Grid.Column="43" Grid.Row="10" Stretch="Fill"/>
+        <Image Source="Resources/90_degree_bend_2_yellow.png" Grid.Column="43" Grid.Row="7" Grid.RowSpan="3" Grid.ColumnSpan="3" Stretch="Fill"/>
+        <Image Source="Resources/90_degree_bend_1_yellow.png" Grid.Column="46" Grid.Row="7" Grid.RowSpan="3" Grid.ColumnSpan="3" Stretch="Fill"/>
+        <Image Source="Resources/Pipe_vertical_yellow.png" Grid.Column="10" Grid.Row="32" Grid.RowSpan="12" Grid.ColumnSpan="2" Stretch="Fill"/>
+        <Image Source="Resources/90_degree_bend_2_yellow.png" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="10" Grid.Row="30" Stretch="Fill"/>
+        <Image Source="Resources/Pipe_horizontal_yellow.png" Grid.ColumnSpan="17" Grid.RowSpan="2" Grid.Column="12" Grid.Row="30" Stretch="Fill" />
+        <Image Source="Resources/Pipe_vertical_yellow.png" Grid.Column="37" Grid.Row="36" Grid.RowSpan="8" Grid.ColumnSpan="3" Stretch="Fill"/>
+        <Image Source="Resources/90_degree_bend_1_yellow.png" Grid.ColumnSpan="3" Grid.RowSpan="3" Grid.Row="33" Grid.Column="37" Stretch="Fill"/>
+        <Image Source="Resources/Pipe_horizontal_yellow.png" Grid.RowSpan="3" Grid.ColumnSpan="4" Grid.Row="33" Grid.Column="33" Stretch="Fill"/>
+        <Image Source="Resources/Pipe_horizontal_darkblue.png" Grid.Column="36" Grid.Row="24" Grid.RowSpan="4" Grid.ColumnSpan="12" Stretch="Fill"/>
+        <Image Source="Resources/Pipe_horizontal_darkblue.png" Grid.Column="39" Grid.Row="12" Grid.RowSpan="2" Grid.ColumnSpan="2" Stretch="Fill"/>
+        <Image Source="Resources/Boiler.png" Grid.Column="25" Grid.Row="5" Grid.RowSpan="30" Grid.ColumnSpan="15" Stretch="Fill"/>
+        <Image Source="Resources/Pipe_horizontal_red.png" Grid.Column="3" Grid.Row="12" Grid.RowSpan="3" Grid.ColumnSpan="33" Stretch="Fill"/>
+        <Image Source="Resources/90_degree_bend_1_red.png" Grid.Column="36" Grid.Row="12" Grid.RowSpan="3" Grid.ColumnSpan="3" Stretch="Fill"/>
+        <Image Source="Resources/Pipe_vertical_red.png" Grid.Column="36" Grid.Row="15" Grid.RowSpan="5" Grid.ColumnSpan="3" Stretch="Fill"/>
+        <Image Source="Resources/90_degree_bend_4_red.png" Grid.Column="36" Grid.Row="20" Grid.RowSpan="3" Grid.ColumnSpan="3" Stretch="Fill"/>
+        <Image Source="Resources/Pipe_horizontal_red.png" Grid.Column="3" Grid.Row="20" Grid.RowSpan="3" Grid.ColumnSpan="33" Stretch="Fill"/>
+     
+        <Image Source="Resources/90_degree_bend_1_darkblue.png" Grid.Column="41" Grid.Row="12" Grid.RowSpan="2" Grid.ColumnSpan="2" Stretch="Fill"/>
+        <Image Source="Resources/Pipe_vertical_darkblue.png" Grid.Column="41" Grid.Row="14" Grid.RowSpan="6" Grid.ColumnSpan="2" Stretch="Fill"/>
+        <Image Source="Resources/90_degree_bend_3_darkblue.png" Grid.Column="41" Grid.Row="20" Grid.RowSpan="2" Grid.ColumnSpan="2" Stretch="Fill"/>
+        <Image Source="Resources/Pipe_horizontal_darkblue.png" Grid.Column="43" Grid.Row="20" Grid.RowSpan="2" Grid.ColumnSpan="12" Stretch="Fill"/>
+        <Image Source="Resources/ClassicPump_grey.png" Grid.ColumnSpan="8" Grid.RowSpan="8" Grid.Column="47" Grid.Row="25" Stretch="Fill"/>
+        <Image Source="Resources/Handvalves_horizontal_front_middledark.png" Grid.Column="13" Grid.Row="43" Grid.RowSpan="3" Grid.ColumnSpan="4" Stretch="Fill"/>
+        <Image Source="Resources/Handvalves_horizontal_front_middledark.png" Grid.Column="29" Grid.Row="43" Grid.RowSpan="3" Grid.ColumnSpan="4" Stretch="Fill"/>
+        <Image Source="Resources/Handvalves_horizontal_front_middledark.png" Grid.Column="17" Grid.Row="30" Grid.RowSpan="2" Grid.ColumnSpan="3" Stretch="Fill"/>
+        <Image Source="Resources/Handvalves_vertical_front_middledark.png" Grid.Column="37" Grid.Row="37" Grid.RowSpan="4" Grid.ColumnSpan="3" Stretch="Fill"/>
+        <Image Source="Resources/Handvalves_vertical_front_middledark.png" Grid.Column="43" Grid.Row="37" Grid.RowSpan="4" Grid.ColumnSpan="3" Stretch="Fill"/>
+        <Image Source="Resources/Handvalves_horizontal_front_middledark.png" Grid.Column="47" Grid.Row="20" Grid.RowSpan="2" Grid.ColumnSpan="3" Stretch="Fill"/>
+
+        <Viewbox Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="6" Grid.RowSpan="2">
+            <Label Content="Вход продукта " FontSize="18"/>
+            </Viewbox>
+        <Viewbox   Grid.Row="6" Grid.Column="3" Grid.ColumnSpan="4" Grid.RowSpan="6" Stretch="Fill">
+        <StackPanel Orientation="Vertical">
+            <Viewbox Stretch="Fill">
+                <StackPanel Orientation="Horizontal" Background="{Binding Path=OilCountCo}">
+                    <Label Content="{Binding Path=OilCount}" FontSize="22"/>
+                    <Label Content="м³/ч " FontSize="22"/>
+                    <StackPanel.ToolTip>
+                        <ToolTip>
+                            <Label Content="{Binding Path=OilCountSt}"/>
+                        </ToolTip>
+                    </StackPanel.ToolTip>
+            </StackPanel>
+            </Viewbox>
+            <Viewbox Stretch="Fill">
+                <StackPanel Orientation="Horizontal" Background="{Binding Path=TempInOilCo}">
+                    <Label Content="{Binding Path=TempInOil}" FontSize="22"/>
+                    <Label Content="°С   " FontSize="22"/>
+                    <StackPanel.ToolTip>
+                        <ToolTip>
+                            <Label Content="{Binding Path=TempInOilSt}"/>
+                        </ToolTip>
+                    </StackPanel.ToolTip>
+                </StackPanel>
+            </Viewbox>
+            <Viewbox Stretch="Fill">
+                <StackPanel Orientation="Horizontal" Background="{Binding Path=PressInOilCo}">
+                    <Label Content="{Binding Path=PressInOil}" FontSize="22"/>
+                    <Label Content="МПа" FontSize="22"/>
+                    <StackPanel.ToolTip>
+                        <ToolTip>
+                            <Label Content="{Binding Path=PressInOilSt}"/>
+                        </ToolTip>
+                    </StackPanel.ToolTip>
+            </StackPanel>
+            </Viewbox>
+            
+        </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="22" Grid.Column="3" Grid.ColumnSpan="6" Grid.RowSpan="2">
+            <Label Content="Выход продукта" FontSize="18"/>
+        </Viewbox>
+        <Viewbox  Grid.Row="24" Grid.Column="3" Grid.ColumnSpan="4" Grid.RowSpan="4" Stretch="Fill">
+        <StackPanel Orientation="Vertical">
+
+            <Viewbox Stretch="Fill">
+                <StackPanel Orientation="Horizontal" Background="{Binding Path=TempOutOilCo}">
+                    <Label Content="{Binding Path=TempOutOil}" FontSize="22"/>
+                    <Label Content="°С   " FontSize="22"/>
+                    <StackPanel.ToolTip>
+                        <ToolTip>
+                            <Label Content="{Binding Path=TempOutOilSt}"/>
+                        </ToolTip>
+                    </StackPanel.ToolTip>
+                </StackPanel>
+            </Viewbox>
+            <Viewbox Stretch="Fill">
+                <StackPanel Orientation="Horizontal" Background="{Binding Path=PressOutOilCo}">
+                    <Label Content="{Binding Path=PressOutOil}" FontSize="22"/>
+                    <Label Content="МПа" FontSize="22"/>
+                    <StackPanel.ToolTip>
+                        <ToolTip>
+                            <Label Content="{Binding Path=PressOutOilSt}"/>
+                        </ToolTip>
+                    </StackPanel.ToolTip>
+                </StackPanel>
+            </Viewbox>
+        </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="38" Grid.Column="3" Grid.ColumnSpan="6" Grid.RowSpan="2">
+            <Label Content="Вход газа     " FontSize="18"/>
+        </Viewbox>
+        <Viewbox  Grid.Row="40" Grid.Column="3" Grid.ColumnSpan="4" Grid.RowSpan="4" Stretch="Fill">
+        <StackPanel Orientation="Vertical">
+
+            <Viewbox Stretch="Fill">
+                <StackPanel Orientation="Horizontal" Background="{Binding Path=GasInTempCo}">
+                    <Label Content="{Binding Path=GasInTemp}" FontSize="22"/>
+                    <Label Content="°С   " FontSize="22"/>
+                    <StackPanel.ToolTip>
+                        <ToolTip>
+                            <Label Content="{Binding Path=GasInTempSt}"/>
+                        </ToolTip>
+                    </StackPanel.ToolTip>
+                </StackPanel>
+            </Viewbox>
+            <Viewbox Stretch="Fill">
+                <StackPanel Orientation="Horizontal" Background="{Binding Path=PressInGasCo}">
+                    <Label Content="{Binding Path=PressInGas}" FontSize="22"/>
+                    <Label Content="кПа" FontSize="22"/>
+                    <StackPanel.ToolTip>
+                        <ToolTip>
+                            <Label Content="{Binding Path=PressInGasSt}"/>
+                        </ToolTip>
+                    </StackPanel.ToolTip>
+                </StackPanel>
+            </Viewbox>
+        </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="41" Grid.Column="13" Grid.ColumnSpan="5" Grid.RowSpan="2">
+            <StackPanel Orientation="Horizontal" Background="{Binding Path=GasValvePoso}">
+                <Label Content="{Binding Path=GasValvePos}" FontSize="22"/>
+                <Label Content="%" FontSize="22"/>
+                <StackPanel.ToolTip>
+                    <ToolTip>
+                        <Label Content="{Binding Path=GasValvePosSt}"/>
+                    </ToolTip>
+                </StackPanel.ToolTip>
+            </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="0" Grid.Column="30" Grid.RowSpan="3" Grid.ColumnSpan="10" Stretch="Fill">
+            <Label Content="{Binding Path=Stage}"/>
+        </Viewbox>
+        <Viewbox Grid.Row="3" Grid.Column="30" Grid.RowSpan="3" Grid.ColumnSpan="4" Stretch="Fill">
+            <Label Content="Дым"/>
+        </Viewbox>
+        <Viewbox Grid.Row="6" Grid.Column="25" Grid.RowSpan="2" Grid.ColumnSpan="5" Stretch="Fill">
+            <StackPanel Orientation="Horizontal" Background="{Binding Path=TempSmokePoint1Co}">
+                <Label Content="{Binding Path=TempSmokePoint1}" FontSize="22"/>
+                <Label Content="°С   " FontSize="22"/>
+                <StackPanel.ToolTip>
+                    <ToolTip>
+                        <Label Content="{Binding Path=TempSmokePoint1St}"/>
+                    </ToolTip>
+                </StackPanel.ToolTip>
+            </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="6" Grid.Column="35" Grid.RowSpan="2" Grid.ColumnSpan="5" Stretch="Fill">
+            <StackPanel Orientation="Horizontal" Background="{Binding Path=TempSmokePoint2Co}">
+                <Label Content="{Binding Path=TempSmokePoint2}" FontSize="22"/>
+            <Label Content="°С   " FontSize="22"/>
+                <StackPanel.ToolTip>
+                    <ToolTip>
+                        <Label Content="{Binding Path=TempSmokePoint2St}"/>
+                    </ToolTip>
+                </StackPanel.ToolTip>
+            </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="17" Grid.Column="46" Grid.RowSpan="2" Grid.ColumnSpan="5" Stretch="Fill">
+            <StackPanel Orientation="Horizontal" Background="{Binding Path=SampleSelTempCo}">
+                <Label Content="{Binding Path=SampleSelTemp}" FontSize="22"/>
+                <Label Content="°С   " FontSize="22"/>
+                <StackPanel.ToolTip>
+                    <ToolTip>
+                        <Label Content="{Binding Path=SampleSelTempSt}"/>
+                    </ToolTip>
+                </StackPanel.ToolTip>
+            </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="14" Grid.Column="46" Grid.RowSpan="3" Grid.ColumnSpan="6" Stretch="Fill">
+            <Label Content="Проботбор"/>
+        </Viewbox>
+        <Viewbox Grid.Row="28" Grid.Column="49" Grid.RowSpan="2" Grid.ColumnSpan="5" Stretch="Fill">
+            <StackPanel Orientation="Horizontal" Background="{Binding Path=CurrVentCo}">
+                <Label Content="{Binding Path=CurrVent}" FontSize="22"/>
+                <Label Content="Гц" FontSize="22"/>
+                <StackPanel.ToolTip>
+                    <ToolTip>
+                        <Label Content="{Binding Path=CurrVentSt}"/>
+                    </ToolTip>
+                </StackPanel.ToolTip>
+            </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="34" Grid.Column="48" Grid.ColumnSpan="6" Grid.RowSpan="2">
+            <Label Content="Воздух" FontSize="18"/>
+        </Viewbox>
+        <Viewbox  Grid.Row="36" Grid.Column="49" Grid.ColumnSpan="4" Grid.RowSpan="4" Stretch="Fill">
+        <StackPanel Orientation="Vertical">
+
+            <Viewbox Stretch="Fill">
+                <StackPanel Orientation="Horizontal" Background="{Binding Path=AirTempCo}">
+                    <Label Content="{Binding Path=AirTemp}" FontSize="22"/>
+                    <Label Content="°С   " FontSize="22"/>
+                    <StackPanel.ToolTip>
+                        <ToolTip>
+                            <Label Content="{Binding Path=AirTempSt}"/>
+                        </ToolTip>
+                    </StackPanel.ToolTip>
+                </StackPanel>
+            </Viewbox>
+            <Viewbox Stretch="Fill">
+                <StackPanel Orientation="Horizontal" Background="{Binding Path=AirPressureCo}">
+                    <Label Content="{Binding Path=AirPressure}" FontSize="22"/>
+                    <Label Content="кПа" FontSize="22"/>
+                    <StackPanel.ToolTip>
+                        <ToolTip>
+                            <Label Content="{Binding Path=AirPressureSt}"/>
+                        </ToolTip>
+                    </StackPanel.ToolTip>
+                </StackPanel>
+            </Viewbox>
+        </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="7" Grid.Column="50" Grid.RowSpan="2" Grid.ColumnSpan="5" Stretch="Fill">
+            <StackPanel Orientation="Horizontal" Background="{Binding Path=GasAreaCo}">
+                <Label Content="{Binding Path=GasArea}" FontSize="22"/>
+                <Label Content="%   " FontSize="22"/>
+                <StackPanel.ToolTip>
+                    <ToolTip>
+                        <Label Content="{Binding Path=GasAreaSt}"/>
+                    </ToolTip>
+                </StackPanel.ToolTip>
+            </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="4" Grid.Column="50" Grid.RowSpan="3" Grid.ColumnSpan="6" Stretch="Fill">
+            <Label Content="Загаз. пл."/>
+        </Viewbox>
+        <Viewbox Grid.Row="4" Grid.Column="3" Grid.RowSpan="8" Grid.ColumnSpan="60" Stretch="Fill">
+            <Label x:Name="AlarmConnect" Content="Нет связи с контроллером" Foreground="Red"/>
+        </Viewbox>
+        <Image x:Name="Lamp"  Grid.ColumnSpan="4" Grid.RowSpan="4" Stretch="Fill" MouseLeftButtonDown="ShowAlarms"/>
+        <Viewbox Grid.Column="55" Grid.Row="1" Grid.ColumnSpan="7" Grid.RowSpan="2" Stretch="Fill">
+        <Button Content="Журнал"  FontSize="22" Click="ShowHistory"/>
+        </Viewbox>
+    </Grid>
+</Window>

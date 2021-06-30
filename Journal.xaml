@@ -1,0 +1,84 @@
+﻿<Window x:Class="DNS3010_PPN3.Journal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DNS3010_PPN3"
+        mc:Ignorable="d"
+        Title="История показаний датчиков" Height="768" Width="1024">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="54*"/>
+            <RowDefinition Height="79*"/>
+            <RowDefinition Height="604*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="127*"/>
+            <ColumnDefinition Width="115*"/>
+            <ColumnDefinition Width="146*"/>
+            <ColumnDefinition Width="276*"/>
+            <ColumnDefinition Width="385*"/>
+        </Grid.ColumnDefinitions>
+        <Viewbox Grid.Row="0" Grid.Column="3" Grid.RowSpan="2" Grid.ColumnSpan="1">
+            <StackPanel Orientation="Vertical" x:Name="Panel1">
+                <Label Content="Отображаемые поля"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[0]}" Content="Расход продукта" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[1]}"  Content="Р контроля герметичности" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[2]}" Content="Т нефти на входе" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[3]}" Content="Т нефти на выходе" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[4]}" Content="Т дымовых газов в точке 1" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[5]}" Content="Т дымовых газов в точке 2" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[6]}" Content="Р воздуха" Click="ChCheck"/>
+     
+            </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" Grid.ColumnSpan="1">
+            <StackPanel Orientation="Vertical" x:Name="Panel2">
+
+                <CheckBox IsChecked="{Binding Path=Chekk[7]}" Content="Р газа на входе" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[8]}" Content="Р нефти на входе" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[9]}" Content="Р нефти на выходе" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[10]}" Content="Положение заслонки газа" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[11]}" Content="Частота приводного вентилятора" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[12]}" Content="Т газа на входе" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[13]}" Content="Т отбора проб" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[14]}" Content="Т воздуха" Click="ChCheck"/>
+                <CheckBox IsChecked="{Binding Path=Chekk[15]}" Content="Загазованность на площадке" Click="ChCheck"/>
+            </StackPanel>
+        </Viewbox>
+        <Viewbox Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right" Width="79">
+            <Label Content="Дата" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="16"/>
+        </Viewbox>
+
+
+        <Viewbox Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left" Width="114">
+            <DatePicker x:Name="Date_start" HorizontalAlignment="Left" VerticalAlignment="Bottom" SelectedDateChanged="SelectedDateChanged"/>
+        </Viewbox>
+        <DataGrid x:Name="DataExit" AutoGenerateColumns="False" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="5" FontSize="16">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Дата и время" Binding="{Binding Path=DateTime}" Width="*"/>
+                <DataGridTextColumn Header="Расход продукта" Binding="{Binding Path=OilCount}" Width="*"/>
+                <DataGridTextColumn Header="Р контроля герметичности" Binding="{Binding Path=PressControl}" Width="*" />
+                <DataGridTextColumn Header="Т нефти на входе" Binding="{Binding Path=TempInOil}" Width="*"/>
+                <DataGridTextColumn Header="Т нефти на выходе" Binding="{Binding Path=TempOutOil}" Width="*"/>
+                
+                <DataGridTextColumn Header="Т дымовых газов в точке 1" Binding="{Binding Path=TempSmokePoint1}" Width="*"/>
+                <DataGridTextColumn Header="Т дымовых газов в точке 2" Binding="{Binding Path=TempSmokePoint2}" Width="*"/>
+                <DataGridTextColumn Header="Р воздуха" Binding="{Binding Path=AirPressure}" Width="*"/>
+                <DataGridTextColumn Header="Р газа на входе" Binding="{Binding Path=PressInGas}" Width="*"/>
+                <DataGridTextColumn Header="Р нефти на входе" Binding="{Binding Path=PressInOil}" Width="*"/>
+                <DataGridTextColumn Header="Р нефти на выходе" Binding="{Binding Path=PressOutOil}" Width="*"/>
+                <DataGridTextColumn Header="Положение заслонки газа" Binding="{Binding Path=GasValvePos}" Width="*"/>
+                <DataGridTextColumn Header="Частота приводного вентилятора" Binding="{Binding Path=CurrVent}" Width="*"/>
+                <DataGridTextColumn Header="Т газа на входе" Binding="{Binding Path=GasInTemp}" Width="*"/>
+                <DataGridTextColumn Header="Т отбора проб" Binding="{Binding Path=SampleSelTemp}" Width="*"/>
+                <DataGridTextColumn Header="Т воздуха" Binding="{Binding Path=AirTemp}" Width="*"/>
+                <DataGridTextColumn Header="Загазованность на площадке" Binding="{Binding Path=GasArea}" Width="*"/>
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+    </Grid>
+</Window>
